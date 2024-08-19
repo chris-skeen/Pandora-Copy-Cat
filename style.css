@@ -1,0 +1,81 @@
+
+.top-left-logo {
+  width: 110px;
+  height: 110px;
+  display: flex;
+  position: fixed;
+  top: -22px;
+  left: 28px;
+}
+
+.top-right-words {
+  color: white;
+  font-size: 15px;
+  margin: 15px;
+}
+
+.top-right-container {
+  position: fixed;
+  top: 4px;
+  right: 25px;
+  display:flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+
+}
+
+.question-mark {
+  width: 20px;
+  height: 20px;
+  margin: 15px;
+  float: right;
+}
+
+.middle-page-content {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 700px;
+  bottom: 550px;
+  right: 350px;
+}
+
+.main-table-header {
+  color: white;
+  font-size: 24pt;
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+  font-family: Avenir Next, Avenir, Segoe UI, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: rgb(0, 152, 238);
+  background-image: linear-gradient(
+    180deg,
+    rgb(0, 152, 238),
+    rgb(54, 101, 225)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  color: rgba(0, 0, 0, .8);
+}
+
+a:link { 
+  text-decoration: none; 
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: underline; 
+} 
+a:active { 
+  text-decoration: none; 
+}
+
+#log_in:link {
+  text-decoration: underline;
+}
