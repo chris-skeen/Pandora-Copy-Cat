@@ -1,3 +1,20 @@
+.top-text-cell,
+.bottom-text-cell {
+  position: relative;
+  left: 250px;
+  flex-direction: column;
+  width: 50%;
+  height: 50%;
+}
+
+.em-text, .pw-text {
+  color: white;
+  position: relative;
+  right: 95px;
+  top: 8px;
+  font-size: 10pt
+}
+
 
 .top-left-logo {
   width: 110px;
@@ -34,11 +51,11 @@
 .middle-page-content {
   display: flex;
   justify-content: center;
-  position: fixed;
-  width: 700px;
-  bottom: 550px;
-  right: 350px;
+  margin: 80px auto 0 auto;
+  width: 50%;
+  padding-bottom: 18%;
 }
+
 
 .main-table-header {
   color: white;
@@ -78,4 +95,78 @@ a:active {
 
 #log_in:link {
   text-decoration: underline;
+}
+
+
+.top-text-box, .bottom-text-box {
+  height: 33px;
+  width: 400px;
+  position: relative;
+  right: 95px
+  
+}
+
+.log-in-btn {
+  width: 409px;
+  height: 45px;
+  position: relative;
+  left: 155px;
+  top: 25px;
+  color: white;
+  background-color: rgb(93, 134, 253);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0px 
+}
+
+#forgot_pw:link {
+  text-decoration: underline;
+}
+
+#forgot_pw {
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative; 
+  top: 60px;
+  left: 5px
+}
+
+.no-acc {
+  color: white;
+  display: flex;
+  justify-content : center;
+  position: relative;
+  top: 112px;
+  left: 5px
+}
+
+#sign-up {
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 130px;
+  left: 7px;
+  text-decoration: underline;
+}
+
+.btm-links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  font-size: 9pt;
+
+}
+
+.btm-links {
+  color:white;
+}
+
+.btm-page-txt-container {
+  display: flex;
+  justify-content: center;
+  color: grey;
 }
