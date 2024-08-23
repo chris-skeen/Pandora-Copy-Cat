@@ -130,7 +130,7 @@ a:active {
   justify-content: center;
   position: relative; 
   top: 60px;
-  left: 5px
+  left: 10px
 }
 
 .no-acc {
@@ -139,7 +139,7 @@ a:active {
   justify-content : center;
   position: relative;
   top: 112px;
-  left: 5px
+  left: 10px
 }
 
 #sign-up {
@@ -148,7 +148,7 @@ a:active {
   justify-content: center;
   position: relative;
   top: 130px;
-  left: 7px;
+  left: 10px;
   text-decoration: underline;
 }
 
@@ -168,5 +168,6 @@ a:active {
 .btm-page-txt-container {
   display: flex;
   justify-content: center;
-  color: grey;
+  color: rgba(218, 214, 214, 0.6);
+  font-size: 9pt
 }
